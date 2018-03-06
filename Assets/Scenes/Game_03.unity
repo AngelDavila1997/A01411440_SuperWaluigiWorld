@@ -1264,6 +1264,7 @@ Transform:
   - {fileID: 1200512160}
   - {fileID: 1259571798}
   - {fileID: 1514295547}
+  - {fileID: 1097294193}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3549,6 +3550,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1097294193 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915,
+    type: 2}
+  m_PrefabInternal: {fileID: 1891866024}
 --- !u!4 &1200512160 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915,
@@ -5404,6 +5410,56 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1001 &1891866024
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 447140127}
+    m_Modifications:
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4555181378271860, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925355728167446, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_Name
+      value: Paragoomba (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574025385836418, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.37
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 24bfbf1feaf799c409d7b9c8ed25a915, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1944147621
 GameObject:
   m_ObjectHideFlags: 0
